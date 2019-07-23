@@ -359,7 +359,8 @@ public class Protocol1_11To1_10 extends Protocol {
             }
         });
 
-        // Chat Message Incoming
+        // WE ARE THE LAW!
+        /*// Chat Message Incoming
         registerIncoming(State.PLAY, 0x02, 0x02, new PacketRemapper() {
             @Override
             public void registerMap() {
@@ -375,7 +376,7 @@ public class Protocol1_11To1_10 extends Protocol {
                     }
                 });
             }
-        });
+        });*/
     }
 
     private int getNewSoundId(int id) { //TODO Make it better, suggestions are welcome. It's ugly and hardcoded now.
